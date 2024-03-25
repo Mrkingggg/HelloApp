@@ -1,6 +1,6 @@
 # HelloApp
 
-Modify src/App.js to a simple Hello App framework.
+Modify hello_app/src/App.js to a simple Hello App framework.
 
 Use
 
