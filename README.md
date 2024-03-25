@@ -2,4 +2,16 @@
 
 Modify src/App.js to a simple Hello App framework.
 
-## Use npm start to run the react framwork and cntl-C to end.
+Use
+
+```bash
+npm start
+```
+
+to run the react framwork
+
+```bash
+cntl-C
+```
+
+to end.
