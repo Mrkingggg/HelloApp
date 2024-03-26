@@ -18,6 +18,10 @@ cntl-C
 
 to end.
 
+### Result:
+<img width="1440" alt="Screenshot 2024-03-25 at 23 09 07" src="https://github.com/Mrkingggg/HelloApp/assets/105716817/979f84cb-0b08-4e6d-8f0c-6ef77b8ad0ca">
+
+
 ## 2. Combine frontend with backend app.py related to project2 ( For Add User Function ) 
 ### Within Directories: /backend and /frontend 
 
