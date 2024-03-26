@@ -18,7 +18,7 @@ cntl-C
 
 to end.
 
-## 2. Combine frontend with backend app.py related to project2.
+## 2. Combine frontend with backend app.py related to project2 ( For Add User Function )
 
 ### Module Add-User with React and Flask_Restful:
 
