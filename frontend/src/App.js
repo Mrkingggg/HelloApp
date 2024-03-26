@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import AddUser from './AddUser'; // 导入 AddUser 组件
 // import HomePage from './HomePage'; // 假设你有一个 HomePage 组件
 // import AboutPage from './AboutPage'; // 假设你有一个 AboutPage 组件
@@ -18,12 +18,10 @@ function App() {
         </nav>
 
         {/* 路由切换 */}
-        <Switch>
-          <Route path="/api/users/add">
-            <AddUser />
-          </Route>
+        <Routes>
+          <Route path="/api/users/add" element={<AddUser />} />
           {/* 更多路由... */}
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );

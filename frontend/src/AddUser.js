@@ -23,7 +23,7 @@ const AddUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5050/api/users/add', userData);
+      const response = await axios.post('http://localhost:5000/api/users/add', userData);
       console.log(response.data);
       alert('User added successfully');
     } catch (error) {
