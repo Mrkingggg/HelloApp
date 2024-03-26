@@ -18,4 +18,25 @@ cntl-C
 
 to end.
 
-## 2. Combine frontend with backend app.py related to project2. Hello_App function is added to app.py's route. Other components of project2 are not yet combined with front end.
+## 2. Combine frontend with backend app.py related to project2.
+
+source url: localhost:5000(port)
+
+Hello_App function is added to app.py's route: /api/user/hello
+Other components of project2 are not yet combined with front end.
+
+in directory /backend:
+
+```bash
+flask run
+```
+
+start the backend app.
+
+in directory /frontend:
+
+```bash
+npm start
+```
+
+start frontend React.
