@@ -35,8 +35,8 @@ notification_queue = Queue()
 # medium tables:
 
 rolesmap = db.Table('rolesmap', 
-                    db.Column('user_id',db.Integer, db.ForeignKey('users.userId'), primary_key=True),
-                    db.Column('rold_id',db.Integer, db.ForeignKey('role.roleId'), primary_key=True)
+                    db.Column('userId',db.Integer, db.ForeignKey('users.userId'), primary_key=True),
+                    db.Column('roldId',db.Integer, db.ForeignKey('role.roleId'), primary_key=True)
                     )
 
 # database models: 
