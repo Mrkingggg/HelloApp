@@ -54,6 +54,7 @@ const AddUser = () => {
           <option value="male">Male</option>
           <option value="other">Other</option>
         </select>
+  // remain to design role id input
 
         <button type="submit">Submit</button>
       </form>
