@@ -20,10 +20,18 @@ to end.
 
 ## 2. Combine frontend with backend app.py related to project2.
 
-source url: localhost:5000(port)
+### Module Add-User with React and Flask_Restful:
 
-Hello_App function is added to app.py's route: /api/user/hello
-Other components of project2 are not yet combined with front end.
+source url: localhost:5000/api/users/add ( same in app.py)
+
+#### App.js:
+
+Designed to contain and connect to all api routes. 
+
+#### AppUser.js:
+
+- Form model: Receive from User's input on website including required fields from backend models and database tables.
+- Axios: Async tool to wait for user's input and post formdata to api.
 
 in directory /backend:
 
